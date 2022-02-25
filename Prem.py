@@ -73,15 +73,15 @@ def ___menu___():
         print(f"{P}[{M}!{P}]{M} Cookie Invalid");os.system('rm -rf Data/coki.txt && rm -rf Data/user.txt');sleep(3);___login___()
     except (IOError):
         exit(f"{P}[{K}!{P}]{K} Koneksi Error")
-    print(f"{B}[{P}1{B}]{H} Dump Username Dari Mengikuti")
-    print(f"{B}[{P}2{B}]{H} Dump Username Dari Pengikut")
-    print(f"{B}[{P}3{B}]{H} Dump Username Dari Activity")
-    print(f"{B}[{P}4{B}]{H} Dump Username Dari Beranda")
-    print(f"{B}[{P}5{B}]{H} Dump Username Dari Hastag")
-    print(f"{B}[{P}6{B}]{H} Dump Username Dari Search")
-    print(f"{B}[{P}7{B}]{H} Dump Username Dari Query")
-    print(f"{B}[{P}8{B}]{H} Dump User Dari Email")
-    print(f"{B}[{P}9{B}]{H} Mulai Crack {P}[{H}Fast{P}]{H}")
+    print(f"{B}[{P}1{B}]{H} Crack Username Dari Mengikuti")
+    print(f"{B}[{P}2{B}]{H} Crack Username Dari Pengikut")
+    print(f"{B}[{P}3{B}]{H} Crack Username Dari Activity")
+    print(f"{B}[{P}4{B}]{H} Crack Username Dari Beranda")
+    print(f"{B}[{P}5{B}]{H} Crack Username Dari Hastag")
+    print(f"{B}[{P}6{B}]{H} Crack Username Dari Search")
+    print(f"{B}[{P}7{B}]{H} Crack Username Dari Query")
+    print(f"{B}[{P}8{B}]{H} Crack User Dari Email")
+    print(f"{B}[{P}9{B}]{H} Crack {P}[{H}Fast{P}]{H}")
     print(f"{B}[{P}0{B}]{H} Lihat Hasil Crack")
     print(f"{B}[{P}A{B}]{H} Keluar {P}[{M}Exit{P}]{M}\n")
     ___pilih = input(f"{H}[{P}?{H}]{P} Pilih :{K} ")
@@ -122,7 +122,7 @@ def ___menu___():
         print(f"{P}[{K}!{P}]{K} Menghapus Cookie...");os.system('rm -rf Data/coki.txt && rm -rf Data/user.txt');exit()
     else:
         exit(f"{P}[{K}!{P}]{M} Wrong Input")
-# Dump Mengikuti
+# Crack Mengikuti
 def ___mengikuti___():
     try:
         ___user = input(f"\n{H}[{P}?{H}]{P} User :{K} ")
@@ -144,7 +144,7 @@ def ___mengikuti___():
         exit(f"{P}[{M}!{P}]{M} Dump Gagal")
     except (ConnectionError):
         exit(f"{P}[{M}!{P}]{M} Koneksi Error")
-# Dump Pengikut
+# Crack Pengikut
 def ___pengikut___():
     try:
         ___user = input(f"\n{H}[{P}?{H}]{P} User :{K} ")
@@ -166,7 +166,7 @@ def ___pengikut___():
         exit(f"{P}[{M}!{P}]{M} Dump Gagal")
     except (ConnectionError):
         exit(f"{P}[{K}!{P}]{K} Koneksi Error")
-# Dump Activity
+# Crack Activity
 def ___activity___():
     try:
         ___file = input(f"\n{H}[{P}?{H}]{P} Nama File :{K} ").replace(' ','_')
@@ -184,7 +184,7 @@ def ___activity___():
             input(f"{M}[{P}Kembali{M}]{P}");___menu___()
     except Exception as e:
         exit(f"{P}[{M}!{P}]{M} {e}")
-# Dump Beranda
+# Crack Beranda
 def ___beranda___():
     try:
         ___file = input(f"\n{H}[{P}?{H}]{P} Nama File :{K} ").replace(' ','_')
@@ -203,7 +203,7 @@ def ___beranda___():
         exit(f"{P}[{M}!{P}]{M} Dump Gagal")
     except (ConnectionError):
         exit(f"{P}[{M}!{P}]{M} Koneksi Error")
-# Dump Hastag
+# Crack Hastag
 def ___hastag___():
     try:
         ___tag = input(f"\n{H}[{P}?{H}]{P} Hastag :{K} ").replace('#','')
@@ -224,7 +224,7 @@ def ___hastag___():
             input(f"{M}[{P}Kembali{M}]{P}");___menu___()
     except Exception as e:
         exit(f"{P}[{M}!{P}]{M} {e}")
-# Dump Search
+# Crack Search
 def ___search___():
     try:
         ___user = input(f"\n{H}[{P}?{H}]{P} User :{K} ")
@@ -246,7 +246,7 @@ def ___search___():
         exit(f"{P}[{M}!{P}]{M} Dump Gagal")
     except (ConnectionError):
         exit(f"{P}[{K}!{P}]{K} Koneksi Error")
-# Dump Query
+# Crack Query
 def ___query___():
     try:
         ___query = input(f"\n{H}[{P}?{H}]{P} Query :{K} ")
@@ -266,7 +266,7 @@ def ___query___():
         exit(f"{P}[{M}!{P}]{M} Dump Gagal")
     except (ConnectionError):
         exit(f"{P}[{K}!{P}]{K} Koneksi Error")
-# Dump Dari Email
+# Crack Dari Email
 def ___email___():
     try:
         ___nama = input(f"\n{H}[{P}?{H}]{P} Nama :{K} ").replace(' ','')
