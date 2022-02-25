@@ -19,9 +19,7 @@ ___logo___ = (f"""{H} ___ ___ ___ __  __ ___ _   _ __  __
 {B}|  _/   / _|| |\/| || || |_| | |\/| |
 {B}|_| |_|_\___|_|  |_|___|\___/|_|  |_|
 {K}[{P}•{K}]{P}——————————————————————————————
-{H}[{P}>{H}]{P} Au : rozhak
-{H}[{P}>{H}]{P} Ig : @rozhak_official
-{H}[{P}>{H}]{P} Fb : fb.com/rozhak.xyz
+{H}[{P}>{H}]{P} Ig : @okamahendraa__
 {K}[{P}•{K}]{P}——————————————————————————————
 """)
 # Login Cookie
@@ -75,17 +73,17 @@ def ___menu___():
         print(f"{P}[{M}!{P}]{M} Cookie Invalid");os.system('rm -rf Data/coki.txt && rm -rf Data/user.txt');sleep(3);___login___()
     except (IOError):
         exit(f"{P}[{K}!{P}]{K} Koneksi Error")
-    print(f"{B}[{P}1{B}]{P} Dump Username Dari Mengikuti")
-    print(f"{B}[{P}2{B}]{P} Dump Username Dari Pengikut")
-    print(f"{B}[{P}3{B}]{P} Dump Username Dari Activity")
-    print(f"{B}[{P}4{B}]{P} Dump Username Dari Beranda")
-    print(f"{B}[{P}5{B}]{P} Dump Username Dari Hastag")
-    print(f"{B}[{P}6{B}]{P} Dump Username Dari Search")
-    print(f"{B}[{P}7{B}]{P} Dump Username Dari Query")
-    print(f"{B}[{P}8{B}]{P} Dump User Dari Email")
-    print(f"{B}[{P}9{B}]{P} Mulai Crack {P}[{H}Fast{P}]{H}")
-    print(f"{B}[{P}0{B}]{P} Lihat Hasil Crack")
-    print(f"{B}[{P}A{B}]{P} Keluar {P}[{M}Exit{P}]{M}\n")
+    print(f"{B}[{P}1{B}]{H} Dump Username Dari Mengikuti")
+    print(f"{B}[{P}2{B}]{H} Dump Username Dari Pengikut")
+    print(f"{B}[{P}3{B}]{H} Dump Username Dari Activity")
+    print(f"{B}[{P}4{B}]{H} Dump Username Dari Beranda")
+    print(f"{B}[{P}5{B}]{H} Dump Username Dari Hastag")
+    print(f"{B}[{P}6{B}]{H} Dump Username Dari Search")
+    print(f"{B}[{P}7{B}]{H} Dump Username Dari Query")
+    print(f"{B}[{P}8{B}]{H} Dump User Dari Email")
+    print(f"{B}[{P}9{B}]{H} Mulai Crack {P}[{H}Fast{P}]{H}")
+    print(f"{B}[{P}0{B}]{H} Lihat Hasil Crack")
+    print(f"{B}[{P}A{B}]{H} Keluar {P}[{M}Exit{P}]{M}\n")
     ___pilih = input(f"{H}[{P}?{H}]{P} Pilih :{K} ")
     if ___pilih in ['1','01']:
         ___mengikuti___()
